@@ -97,11 +97,23 @@
     }
 
     .family-photo {
-      with: 100%;
-      max-with: 320px;
-      border-radius: 20px:
-      margin-top: 25px:
-      box-shadow: 0 10px 30px rgba (0,0,0,.35);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    }
+
+    .photo-box {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.18);
+    }
 
 
     }
@@ -178,9 +190,9 @@
 
     <h1>Welcome!</h1>
 
-      <img src="family.jpg"
-           alt="Our Family"
-           class="Family-photo">
+   <div class="photo-box">
+    <img src="family.jpg" class="family-photo" alt="Our Family">
+   </div>
 
     <p>Glad you’re here.</p>
 
